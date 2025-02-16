@@ -1,9 +1,11 @@
+import Accordion from "./Components/Accordion/Accordion";
+
 function App() {
   return (
     <>
-      
+      <Accordion />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
