@@ -1,9 +1,9 @@
-import Accordion from "./Components/Accordion/Accordion";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   return (
     <>
-      <Accordion />
+      <ContactForm />
     </>
   );
 }
