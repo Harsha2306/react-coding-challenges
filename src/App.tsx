@@ -1,9 +1,9 @@
-import ProgressBar from "./components/ProgressBar/ProgressBar";
+import Widget from "./components/LoanCalculator/Widget";
 
 function App() {
   return (
     <>
-      <ProgressBar />
+      <Widget />
     </>
   );
 }
