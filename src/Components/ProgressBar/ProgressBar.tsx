@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 const INCREMENT = 10;
+const MAX = 100;
 
 const ProgressBar: React.FC = () => {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    if (width > 0 && width < 100) {
+    if (width > 0 && width < MAX) {
       const timer = setTimeout(() => {
-        setWidth((prev) => Math.min(prev + INCREMENT, 100));
+        setWidth((prev) => Math.min(prev + INCREMENT, MAX));
       }, 100);
       return () => clearTimeout(timer);
     }
