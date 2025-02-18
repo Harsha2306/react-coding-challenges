@@ -1,7 +1,7 @@
 import React from "react";
 import { accordionData } from "../../data/accordionData";
 import AccordionContextProvider from "./AccordionContextProvider";
-import useAccordionContext from "../../hooks/UseAccordionContext";
+import useAccordionContext from "../../hooks/useAccordionContext";
 
 interface IAccrodionItemProps {
   id: string;

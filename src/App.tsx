@@ -1,9 +1,9 @@
-import Widget from "./components/LoanCalculator/Widget";
+import Tabs from "./components/Tabs/Tabs";
 
 function App() {
   return (
     <>
-      <Widget />
+      <Tabs />
     </>
   );
 }
