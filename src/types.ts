@@ -14,3 +14,22 @@ export interface ILoanDetails {
   totalInterestPaid: number;
   display: boolean;
 }
+
+export interface IUser {
+  id: number;
+  name: string;
+  age: number;
+  occupation: string;
+}
+
+export interface ITableData {
+  users: IUser[];
+  loading: boolean;
+}
+
+export interface IPagination {
+  noOfUsers: number;
+  page: number;
+  totalPages: number;
+  collectionSize: number;
+}
