@@ -1,9 +1,9 @@
-import UserTable from "./components/DataTable/UserTable";
+import DiceApp from "./components/DiceRoller/DiceApp";
 
 function App() {
   return (
     <>
-      <UserTable/>
+      <DiceApp />
     </>
   );
 }
