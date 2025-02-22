@@ -1,9 +1,9 @@
-import DiceApp from "./components/DiceRoller/DiceApp";
+import FetchData from "./components/RaceCondition/FetchData";
 
 function App() {
   return (
     <>
-      <DiceApp />
+      <FetchData />
     </>
   );
 }
