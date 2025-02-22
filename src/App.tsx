@@ -1,9 +1,9 @@
-import FetchData from "./components/RaceCondition/FetchData";
+import LikeButton from "./components/LikeButton/LikeButton";
 
 function App() {
   return (
     <>
-      <FetchData />
+      <LikeButton />
     </>
   );
 }
