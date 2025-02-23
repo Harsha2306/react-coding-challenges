@@ -1,9 +1,9 @@
-import TrafficLight from "./components/TrafficLight/TrafficLight";
+import Clock from "./components/DigitalClock/Clock";
 
 function App() {
   return (
     <>
-      <TrafficLight />
+      <Clock />
     </>
   );
 }
