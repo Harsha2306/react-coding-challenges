@@ -1,9 +1,9 @@
-import LikeButton from "./components/LikeButton/LikeButton";
+import MyPage from "./components/Modal/MyPage";
 
 function App() {
   return (
     <>
-      <LikeButton />
+      <MyPage />
     </>
   );
 }
