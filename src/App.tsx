@@ -1,9 +1,9 @@
-import MyPage from "./components/Modal/MyPage";
+import TodoApp from "./components/TodoList/TodoApp";
 
 function App() {
   return (
     <>
-      <MyPage />
+      <TodoApp />
     </>
   );
 }

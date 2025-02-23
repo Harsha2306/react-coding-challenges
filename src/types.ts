@@ -33,3 +33,8 @@ export interface IPagination {
   totalPages: number;
   collectionSize: number;
 }
+
+export type TTodo = {
+  id: string;
+  description: string;
+};
