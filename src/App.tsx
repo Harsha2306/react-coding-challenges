@@ -1,9 +1,9 @@
-import TodoApp from "./components/TodoList/TodoApp";
+import TrafficLight from "./components/TrafficLight/TrafficLight";
 
 function App() {
   return (
     <>
-      <TodoApp />
+      <TrafficLight />
     </>
   );
 }
