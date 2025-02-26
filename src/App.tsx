@@ -1,9 +1,9 @@
-import Jobs from "./components/JobBoard/Jobs";
+import StopWatch from "./components/StopWatch/StopWatch";
 
 function App() {
   return (
     <>
-      <Jobs />
+      <StopWatch />
     </>
   );
 }
