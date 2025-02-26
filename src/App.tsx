@@ -1,9 +1,9 @@
-import TestPage from "./components/ImageCarousel/TestPage";
+import Jobs from "./components/JobBoard/Jobs";
 
 function App() {
   return (
     <>
-      <TestPage />
+      <Jobs />
     </>
   );
 }
