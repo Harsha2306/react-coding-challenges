@@ -1,9 +1,9 @@
-import Game from "./components/TicTacToe/Game";
+import TestPage from "./components/ImageCarousel/TestPage";
 
 function App() {
   return (
     <>
-      <Game/>
+      <TestPage />
     </>
   );
 }

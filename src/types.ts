@@ -38,3 +38,8 @@ export type TTodo = {
   id: string;
   description: string;
 };
+
+export type TImage = {
+  src: string;
+  alt: string;
+};
